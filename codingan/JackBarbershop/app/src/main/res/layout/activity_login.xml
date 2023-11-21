@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jack Barbershop"
+            android:textSize="40dp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="30dp"
+            android:layout_marginTop="35dp"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="100dp"
+            android:text="Nama "
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="480dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nomor HP  "
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="550dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Simpan Data "
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="613dp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            tools:layout_editor_absoluteX="290dp"
+            tools:layout_editor_absoluteY="550dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            tools:layout_editor_absoluteX="290dp"
+            tools:layout_editor_absoluteY="550dp" />
+
+    </LinearLayout>
+</RelativeLayout>

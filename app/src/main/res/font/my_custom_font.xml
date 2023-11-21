@@ -1,0 +1,6 @@
+<!-- res/font/my_custom_font.xml -->
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/adero_2023" />
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/bellerose" />
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/simple" />
+</font-family>

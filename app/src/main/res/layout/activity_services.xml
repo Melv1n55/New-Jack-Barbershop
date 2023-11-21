@@ -1,0 +1,151 @@
+<!-- res/layout/activity_home.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ServicesActivity">
+
+    <!-- Back Button with Arrow Icon -->
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="1dp" />
+
+    <!-- List of Services -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services"
+        android:layout_marginStart="130dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/simple"
+        android:textStyle="bold" />
+
+    <!-- Normal Cut -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NORMAL CUT"
+            android:textStyle="bold"
+            android:fontFamily="@font/simple"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/simple"
+            android:text="Rp 25.000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking"
+            android:layout_marginStart="50dp"
+            android:id="@+id/buttonNormalCut" />
+    </LinearLayout>
+
+    <!-- Premium Cut -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PREMIUM CUT"
+            android:fontFamily="@font/simple"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/simple"
+            android:text="Rp 35.000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking"
+            android:layout_marginStart="50dp"
+            android:id="@+id/buttonPremiumCut" />
+    </LinearLayout>
+
+    <!-- Hair Coloring -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="HAIR COLORING"
+            android:fontFamily="@font/simple"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/simple"
+            android:text="Rp 150.000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking"
+            android:layout_marginStart="50dp"
+            android:id="@+id/buttonHairColoring" />
+    </LinearLayout>
+
+    <!-- Shaving -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SHAVING"
+            android:textStyle="bold"
+            android:fontFamily="@font/simple"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/simple"
+            android:text="Rp 15.000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking"
+            android:layout_marginStart="50dp"
+            android:id="@+id/buttonShaving" />
+    </LinearLayout>
+
+</LinearLayout>

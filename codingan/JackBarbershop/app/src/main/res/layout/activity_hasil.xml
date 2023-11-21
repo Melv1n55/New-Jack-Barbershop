@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".hasil">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Jack Barbershop"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="Selamat pesanan anda sukses! Silahkan untuk melanjutkan pembayaran! Thankyou!"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_marginLeft="20dp"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+</LinearLayout>

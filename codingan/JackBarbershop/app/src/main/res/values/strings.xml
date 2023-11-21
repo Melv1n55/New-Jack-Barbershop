@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Jack Barbershop</string>
+    <string-array name="a">
+        <item>Pilih Roti</item>
+        <item>Roti Abon</item>
+        <item>Roti Jepang</item>
+        <item>Roti Keju</item>
+        <item>Roti Coklat</item>
+    </string-array>
+    <string-array name="b">
+        <item>Topping</item>
+        <item>Coklat</item>
+        <item>Susu</item>
+        <item>Keju</item>
+        <item>Yogurt</item>
+    </string-array>
+
+    <string-array name="c">
+        <item>Pilih Minuman</item>
+        <item>Teh Manis</item>
+        <item>Teh Tarik</item>
+        <item>Teh Item</item>
+        <item>Teh Liang</item>
+    </string-array>
+
+    <string-array name="d">
+        <item>Pembayaran</item>
+        <item>Kartu Kredit</item>
+        <item>Kartu Debit</item>
+        <item>Go Bay</item>
+        <item>Ovi</item>
+    </string-array>
+</resources>

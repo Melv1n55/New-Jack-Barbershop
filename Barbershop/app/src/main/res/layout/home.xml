@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="185dp"
+        android:layout_height="179dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logojack" />
+
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bellerose"
+        android:text="Welcome to Jack Barbershop"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnBookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWelcomeMessage"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:text="Book Appointment"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnViewSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Schedule"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/btnBookAppointment"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/btnViewSchedule"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="12dp"/>
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<!-- res/layout/activity_bookingsummary.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonConfirmBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/button_background"
+        android:text="Confirm Booking" />
+
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_arrow_back" />
+
+    <!-- Service Selection -->
+    <TextView
+        android:id="@+id/textViewService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSummaryTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/simple"
+        android:text="Service: Normal Cut"
+        android:textSize="18dp" />
+
+    <!-- Date and Time Selection -->
+    <TextView
+        android:id="@+id/textViewDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewService"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/simple"
+        android:text="Date and Time: October 20, 2023, 10:00 AM"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDateTime"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/simple"
+        android:layout_marginTop="16dp"
+        android:textSize="18dp"
+        android:text="Total Price: Rp 25,000" />
+
+    <!-- Confirm Booking Button -->
+    <TextView
+        android:id="@+id/textViewPayMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/simple"
+        android:text="Payment Method: Cash"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textViewSummaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Booking Summary"
+        android:fontFamily="@font/simple"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
